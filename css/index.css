@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+a{
+    direction: none;
+}
+img{
+    display: block;
+}
+body,html{
+    width: 100%;
+}
+.title{
+    width: 100%;
+    height: 79px;
+    text-align: center;
+    line-height: 79px;
+    color: rgb(128, 128, 128);
+    font-size: 28px;
+}
+.index{
+    width: 972px;
+    height: 39px;
+    border-top: 1px solid #bababa;
+    border-bottom: 1px solid #bababa;
+    margin:0 auto;
+}
+.suggest{
+    width: 490px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.suggest .son{
+    width: auto;
+    height: 100%;
+    font-size: 14px;
+    color: #000000;
+    line-height: 39px;
+    display: block;
+    text-decoration: none;
+}
+.img{
+    width: 972px;
+    height: 364px;
+    margin:0 auto;
+    margin-top: 30px;
+    position: relative;
+}
+.img img{
+    width: 972px;
+    height: 364px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.img .btn{
+    width: 56px;
+    height: 12px;
+    position: absolute;
+    bottom: 20px;
+    left: 458px;
+    z-index: 30;
+    display: flex;
+    justify-content: space-between;
+}
+.btn .son{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #cccccc;
+}
+.img .left{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 195px;
+    z-index: 20;
+    display: none;    
+}
+.img .left i{
+    font-size: 30px;
+    background: #cccccc;
+}
+.img .right{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 195px;
+    z-index: 20; 
+    display: none;   
+}
+.img .right i{
+    font-size: 30px;
+    background: #cccccc;
+}
+.img:hover .left{
+    display: block;
+}
+.img:hover .right{
+    display: block;
+}
+.zhanshi{
+    width: 972px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.zhanshi .son{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+   transition: all 0.5s;
+   background-image: url("../img/p5.png");
+   background-size: 300px 300px;
+   background: #ff6700;
+}
+.zhanshi .son1{
+    background:black;
+}
+.zhanshi .son:hover{
+    box-shadow: 5px 5px 5px 5px #cccccc;
+}
+.zhanshi .son img{
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+.zhanshi .son a{
+    text-decoration: none;
+    color: black;
+}
+.zhanshi .son a span{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.lianxi{
+    width: 100%;
+    height: 300px;
+    background: #cccccc;
+    position: relative;
+}
+.lianxi .left{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 400px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.lianxi .left span{
+    display: block;
+    font-size: 28px;
+    color: white;
+
+}
+.lianxi .left p{
+    display: block;
+    color: white;
+    font-size: 28px;
+}
+.lianxi .right{
+    widows: 300px;
+    height: 300px;
+    position: absolute;
+    left: 700px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.lianxi .right span{
+    display: block;
+    font-size: 28px;
+    color: white;
+
+}
+.zuop{
+    width: 972px;
+    height: 100px;
+    margin:0 auto;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    font-size: 30px;
+    color: rgb(128, 128, 128);
+    line-height: 100px;
+    text-align: left;
+}
+.gren{
+    width: 972px;
+    height: 364px;
+   
+    margin:0 auto;
+    margin-top: 50px;
+    background-image: url("../img/p14.jpg");
+    background-size: 972px 364px;
+    position: relative;
+}
+.gren .jianli{
+    width: 300px;
+    height: 250px;
+    border:1px solid black;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+.gren .jianli h2{
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    color: rgba(175, 171, 171, 0.9);
+}
